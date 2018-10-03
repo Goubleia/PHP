@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    width:50%;
+    margin-top:5%;
+}
+
+.botoes, .result, label {
+    margin-top:2%;
+}
+
+.cabecalho {
+    font-weight:bold;
+}

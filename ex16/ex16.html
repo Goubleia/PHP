@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ex16 - Media e Aprovacao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <p class="cabecalho">Exercicio 16: </br>
+        Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua 
+        média (aritmética), informar o nome e sua menção aprovado (media >= 7), Reprovado (media <= 5) e Recuperação 
+        (media entre 5.1 a 6.9).</p>
+
+        <form method="POST" action="result16.php">
+            <label>Aluno :</label>
+            <input type="text" name="aluno" class="form-control">
+
+            <label>Nota 1 :</label>
+            <input type="text" name="nota1" class="form-control">
+
+            <label>Nota 2 :</label>
+            <input type="text" name="nota2" class="form-control">
+
+            <label>Nota 3 :</label>
+            <input type="text" name="nota3" class="form-control">
+
+            <div class="botoes">
+                <input type="submit" value="Enviar" class="btn btn-primary" id="submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
